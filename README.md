@@ -3,3 +3,4 @@
 
 
 20142973 위승준
+https://github.com/wisjn/2019-01_TechnicalWriting/issues/1#issue-445931427
