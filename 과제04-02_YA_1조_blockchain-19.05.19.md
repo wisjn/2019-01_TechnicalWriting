@@ -48,11 +48,12 @@
 
 ## 블록체인 동작원리 (비트코인 거래 순서)
 1. 거래 생성  
-<img width="370" alt="1" src="https://user-images.githubusercontent.com/50124972/57999647-1ba57700-7b11-11e9-87bb-120b83d0dbc1.png">
+<img alt="1" src="https://user-images.githubusercontent.com/50124972/57999647-1ba57700-7b11-11e9-87bb-120b83d0dbc1.png">
+- Bob이 Alice에게 1BTC 전송 의사표시
 
 
 2. 거래 서명  
-<img width="375" alt="2" src="https://user-images.githubusercontent.com/50124972/57999611-f0bb2300-7b10-11e9-8f5e-2dc74a856db4.png">
+<img alt="2" src="https://user-images.githubusercontent.com/50124972/57999611-f0bb2300-7b10-11e9-8f5e-2dc74a856db4.png">
 - Bob이 해당 거래에 서명을 해야 비트코인 송금에 관한 정보가 담긴 거래정보가 발생.  
 
 3. 거래정보 전송
@@ -60,7 +61,7 @@
     - 노드 : 블록체인을 배포하는 소프트웨어를 갖고 블록체인을 다운받는 사람 또는 컴퓨터  
 
 4. 거래정보 전파  
-<img width="477" alt="4" src="https://user-images.githubusercontent.com/50124972/57999591-dc772600-7b10-11e9-9850-8984051525eb.png">
+<img alt="4" src="https://user-images.githubusercontent.com/50124972/57999591-dc772600-7b10-11e9-9850-8984051525eb.png">
 - Bob이 Alice에게 1BTC 전송 의사표시.  
 - 거래정보가 하나의 노드에 도달하면 비트코인 네트워크상에 있는 모든 노드에게 이 거래정보를 전파한다.
 - 정보를 전파받은 빨간색으로 표시된 채굴노드들이 작업증명(Proof of work 알고리즘) 과정을 거쳐 연산을 먼저 완료하는 노드가 블록에 거래를 기록하게 되고 보상으로 BTC를 받음
